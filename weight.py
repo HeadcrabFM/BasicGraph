@@ -1,5 +1,5 @@
 # простейший график который просто выдаёт все значения из таблички)
-
+import launcher
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -42,3 +42,4 @@ def Weight():
 
     plt.plot(x, y, '-o', color='red', markersize=0.5)  # Добавление очередной точки
     plt.show(block=True)  # Отображение окончательного графика
+    launcher.mainmenu()

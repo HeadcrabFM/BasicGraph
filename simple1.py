@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import pandas as pd
+import launcher
 from colorama import Fore, Back, Style
 
 def Simple1():
@@ -42,3 +42,4 @@ def Simple1():
         print(f'Добавлена точка {i}, значение: {round(y[i],6)}')
 
     plt.show()  # Отображение окончательного графика
+    launcher.mainmenu()
